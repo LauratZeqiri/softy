@@ -1,0 +1,150 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: -52px;
+}
+
+.tabela{
+    width: 100%;
+    margin-top: -150px;
+  }
+  .tabela h1{
+    color: #009933;
+    padding: 20px 0px 10px 10px;
+    margin: 0px 15px;
+    font-size: 25px;
+    border-bottom: 2px solid #009933;
+  }
+  #klientet_table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 98%;
+    margin: 30px 15px 0px 15px;
+  }
+  #klientet_table td,
+  #klientet_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #klientet_table tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #klientet_table tr:hover {
+    background-color: #ddd;
+  }
+  #klientet_table th {
+    padding: 12px;
+    text-align: left;
+    background-color: #515aab;
+    color: white;
+  }
+
+
+
+  button#shto_klient {
+    margin-left: 80%;
+    margin-top: 20px;
+    background-color: none;
+    border: 1px solid #515aab;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: aqua;
+}
+
+h2.titulli7 {
+  margin-left: 3%;
+  color: #515aab;
+
+}
+
+  #shtoForma {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    gap: -150;
+    
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+label,
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    color: red;
+    font-weight: bold;
+    margin-left: -10px;
+    font-size: 15;
+}
+
+input {
+    outline: none;
+    margin: 10px 0px;
+}
+
+input[type='submit'] {
+    width: 150px;
+    float: right;
+    margin: 30px 0px;
+    margin-right: -25px;
+    color: #fff;
+    background-color: red;
+    border: none;
+}
+
+input[type='submit']:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.foto6 {
+  margin: 0;
+  padding: 0;
+  height: 125vh;
+  width: 100%;
+  background-color: #80a150;
+  opacity: 0.7;
+  margin-top: 40px;
+    
+}
+
+.imageheader {
+  position: absolute;
+  padding: 5px;
+  margin: 50px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: rgb(184 132 132 / 86%) 0px 5px 15px;
+  margin-top: 120px;
+}
+.icon {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  line-height: 120px;
+  position: relative;
+  /* margin-bottom: -15px; */
+  background: #8261ee;
+  border-radius: 50%;
+}
